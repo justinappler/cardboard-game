@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AWTTestScript>
+  <component class="javax.swing.JRadioButtonMenuItem" id="2 Player" index="0" parent="JPopupMenu Instance" text="2 Player" window="JFrame Instance" />
+  <component class="javax.swing.JMenu" id="File" index="0" parent="JMenuBar Instance" text="File" window="JFrame Instance" />
+  <component class="com.immortallabs.cardboard.ui.GameWindow" id="GameWindow Instance" index="0" name="" parent="JPanel Instance" window="JFrame Instance" />
+  <component class="javax.swing.JFrame" id="JFrame Instance" root="true" title="" />
+  <component class="javax.swing.JLayeredPane" id="JLayeredPane Instance" index="1" parent="JRootPane Instance" window="JFrame Instance" />
+  <component class="javax.swing.JMenuBar" id="JMenuBar Instance" index="4" parent="JLayeredPane Instance" window="JFrame Instance" />
+  <component class="javax.swing.JPanel" hOrder="1" id="JPanel Instance" index="0" parent="JLayeredPane Instance" window="JFrame Instance" />
+  <component class="javax.swing.JPopupMenu" id="JPopupMenu Instance" index="0" invoker="Multiplayer" />
+  <component class="javax.swing.JPopupMenu" id="JPopupMenu Instance 2" index="0" invoker="New Game" />
+  <component class="javax.swing.JPopupMenu" id="JPopupMenu Instance 3" index="0" invoker="File" />
+  <component class="javax.swing.JRootPane" id="JRootPane Instance" index="0" parent="JFrame Instance" />
+  <component class="javax.swing.JMenu" id="Multiplayer" index="3" parent="JPopupMenu Instance 2" text="Multiplayer" window="JFrame Instance" />
+  <component class="javax.swing.JMenu" id="New Game" index="0" parent="JPopupMenu Instance 3" text="New Game" window="JFrame Instance" />
+  <launch args="[-t]" class="com.immortallabs.cardboard.CardBoardApp" classpath=".:../../lib/cardboard.jar" method="main" />
+  <sequence>
+    <action args="GameWindow Instance,(357%2c318)" class="com.immortallabs.cardboard.ui.GameWindow" method="actionClick" />
+    <action args="2 Player" method="actionSelectMenuItem" />
+    <assert component="2 Player" method="isSelected" />
+  </sequence>
+  <terminate />
+</AWTTestScript>
+

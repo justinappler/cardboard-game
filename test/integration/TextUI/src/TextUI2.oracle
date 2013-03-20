@@ -1,0 +1,5 @@
+Card Board
+board won't display new time and scores until user selects a card, refreshes, or time runs out
+starting a new game
+enter q to exit, s for solitaire mode, b for beginner mode, c for competitive mode, m for multiplayer mode
+: End of game

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AWTTestScript>
+  <component class="javax.swing.JRadioButtonMenuItem" id="15 Seconds" index="0" parent="JPopupMenu Instance" text="15 Seconds" window="JFrame Instance" />
+  <component class="javax.swing.JRadioButtonMenuItem" id="30 Seconds" index="1" parent="JPopupMenu Instance" text="30 Seconds" window="JFrame Instance" />
+  <component class="com.immortallabs.cardboard.ui.GameWindow" id="GameWindow Instance" index="0" name="" parent="JPanel Instance" window="JFrame Instance" />
+  <component class="javax.swing.JMenu" id="Help" index="2" parent="JMenuBar Instance" text="Help" window="JFrame Instance" />
+  <component class="javax.swing.JFrame" id="JFrame Instance" root="true" title="" />
+  <component class="javax.swing.JLayeredPane" id="JLayeredPane Instance" index="1" parent="JRootPane Instance" window="JFrame Instance" />
+  <component class="javax.swing.JMenuBar" id="JMenuBar Instance" index="4" parent="JLayeredPane Instance" window="JFrame Instance" />
+  <component class="javax.swing.JPanel" hOrder="1" id="JPanel Instance" index="0" parent="JLayeredPane Instance" window="JFrame Instance" />
+  <component class="javax.swing.JPopupMenu" id="JPopupMenu Instance" index="0" invoker="Time Limit" />
+  <component class="javax.swing.JPopupMenu" id="JPopupMenu Instance 2" index="0" invoker="Preferences" />
+  <component class="javax.swing.JPopupMenu" id="JPopupMenu Instance 3" index="0" invoker="Options" />
+  <component class="javax.swing.JRootPane" id="JRootPane Instance" index="0" parent="JFrame Instance" />
+  <component class="javax.swing.JMenu" id="Options" index="1" parent="JMenuBar Instance" text="Options" window="JFrame Instance" />
+  <component class="javax.swing.JMenu" id="Preferences" index="0" parent="JPopupMenu Instance 3" text="Preferences" window="JFrame Instance" />
+  <component class="javax.swing.JMenu" id="Time Limit" index="0" parent="JPopupMenu Instance 2" text="Time Limit" window="JFrame Instance" />
+  <launch args="[-t]" class="com.immortallabs.cardboard.CardBoardApp" classpath="./cardboard.jar" method="main" />
+  <sequence>
+    <event component="GameWindow Instance" kind="MOUSE_MOVED" type="MouseEvent" x="322" y="91" />
+    <event component="GameWindow Instance" kind="MOUSE_MOVED" type="MouseEvent" x="236" y="59" />
+    <event component="GameWindow Instance" kind="MOUSE_MOVED" type="MouseEvent" x="216" y="51" />
+    <event component="GameWindow Instance" kind="MOUSE_MOVED" type="MouseEvent" x="206" y="47" />
+    <event component="GameWindow Instance" kind="MOUSE_MOVED" type="MouseEvent" x="198" y="41" />
+    <event component="GameWindow Instance" kind="MOUSE_MOVED" type="MouseEvent" x="188" y="37" />
+    <event component="GameWindow Instance" kind="MOUSE_MOVED" type="MouseEvent" x="180" y="29" />
+    <event component="GameWindow Instance" kind="MOUSE_MOVED" type="MouseEvent" x="172" y="23" />
+    <event component="GameWindow Instance" kind="MOUSE_MOVED" type="MouseEvent" x="162" y="17" />
+    <event component="GameWindow Instance" kind="MOUSE_MOVED" type="MouseEvent" x="154" y="9" />
+    <event component="GameWindow Instance" kind="MOUSE_MOVED" type="MouseEvent" x="144" y="5" />
+    <event component="GameWindow Instance" kind="MOUSE_MOVED" type="MouseEvent" x="138" y="-3" />
+    <event component="Help" kind="MOUSE_MOVED" type="MouseEvent" x="31" y="19" />
+    <event component="Help" kind="MOUSE_MOVED" type="MouseEvent" x="31" y="19" />
+    <event component="Help" kind="MOUSE_MOVED" type="MouseEvent" x="23" y="13" />
+    <event component="Help" kind="MOUSE_MOVED" type="MouseEvent" x="17" y="9" />
+    <event component="Help" kind="MOUSE_MOVED" type="MouseEvent" x="13" y="5" />
+    <event component="Help" kind="MOUSE_MOVED" type="MouseEvent" x="7" y="3" />
+    <event component="Help" kind="MOUSE_MOVED" type="MouseEvent" x="3" y="-1" />
+    <event component="JFrame Instance" kind="MOUSE_MOVED" type="MouseEvent" x="114" y="22" />
+    <event component="JFrame Instance" kind="MOUSE_MOVED" type="MouseEvent" x="113" y="21" />
+    <event component="Options" kind="MOUSE_MOVED" type="MouseEvent" x="54" y="2" />
+    <event component="Options" kind="MOUSE_MOVED" type="MouseEvent" x="53" y="3" />
+    <event component="Options" kind="MOUSE_MOVED" type="MouseEvent" x="52" y="4" />
+    <event component="Options" kind="MOUSE_MOVED" type="MouseEvent" x="50" y="5" />
+    <event component="Options" kind="MOUSE_MOVED" type="MouseEvent" x="49" y="6" />
+    <event component="Options" kind="MOUSE_MOVED" type="MouseEvent" x="48" y="7" />
+    <event component="Options" kind="MOUSE_MOVED" type="MouseEvent" x="44" y="11" />
+    <event component="Options" kind="MOUSE_MOVED" type="MouseEvent" x="43" y="12" />
+    <event component="Options" kind="MOUSE_MOVED" type="MouseEvent" x="43" y="13" />
+    <event component="Options" kind="MOUSE_MOVED" type="MouseEvent" x="42" y="15" />
+    <event component="Options" kind="MOUSE_MOVED" type="MouseEvent" x="41" y="16" />
+    <event component="Options" kind="MOUSE_MOVED" type="MouseEvent" x="40" y="17" />
+    <event component="Options" kind="MOUSE_MOVED" type="MouseEvent" x="39" y="18" />
+    <event component="Options" kind="MOUSE_MOVED" type="MouseEvent" x="38" y="19" />
+    <event component="Options" kind="MOUSE_MOVED" type="MouseEvent" x="39" y="18" />
+    <event component="Options" kind="MOUSE_MOVED" type="MouseEvent" x="35" y="22" />
+    <event component="GameWindow Instance" kind="MOUSE_MOVED" type="MouseEvent" x="75" y="0" />
+    <event component="GameWindow Instance" kind="MOUSE_MOVED" type="MouseEvent" x="75" y="0" />
+    <event component="GameWindow Instance" kind="MOUSE_MOVED" type="MouseEvent" x="75" y="1" />
+    <action args="GameWindow Instance,(75%2c1)" class="com.immortallabs.cardboard.ui.GameWindow" method="actionClick" />
+    <event component="GameWindow Instance" kind="MOUSE_MOVED" type="MouseEvent" x="75" y="0" />
+    <event component="GameWindow Instance" kind="MOUSE_MOVED" type="MouseEvent" x="75" y="-2" />
+    <event component="Options" kind="MOUSE_MOVED" type="MouseEvent" x="35" y="20" />
+    <event component="Options" kind="MOUSE_MOVED" type="MouseEvent" x="35" y="20" />
+    <event component="Options" kind="MOUSE_MOVED" type="MouseEvent" x="35" y="19" />
+    <event component="Options" kind="MOUSE_MOVED" type="MouseEvent" x="35" y="18" />
+    <event component="Options" kind="MOUSE_MOVED" type="MouseEvent" x="35" y="17" />
+    <event component="Options" kind="MOUSE_MOVED" type="MouseEvent" x="35" y="15" />
+    <event component="Options" kind="MOUSE_MOVED" type="MouseEvent" x="35" y="14" />
+    <event component="Options" kind="MOUSE_MOVED" type="MouseEvent" x="35" y="13" />
+    <event component="Options" kind="MOUSE_MOVED" type="MouseEvent" x="35" y="12" />
+    <event component="Options" kind="MOUSE_MOVED" type="MouseEvent" x="35" y="11" />
+    <event component="Options" kind="MOUSE_MOVED" type="MouseEvent" x="35" y="10" />
+  </sequence>
+  <assert component="15 Seconds" method="getSelectedObjects" value="[15 Seconds]" />
+  <terminate />
+</AWTTestScript>
+

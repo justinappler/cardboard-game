@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AWTTestScript>
+  <component class="javax.swing.JMenuItem" id="Beginner" index="1" parent="JPopupMenu Instance" text="Beginner" window="JFrame Instance" />
+  <component class="javax.swing.JMenu" id="File" index="0" parent="JMenuBar Instance" text="File" window="JFrame Instance" />
+  <component class="com.immortallabs.cardboard.ui.GameWindow" id="GameWindow Instance" index="0" name="" parent="JPanel Instance" window="JFrame Instance" />
+  <component class="javax.swing.JMenu" id="Help" index="2" parent="JMenuBar Instance" text="Help" window="JFrame Instance" />
+  <component class="javax.swing.JFrame" id="JFrame Instance" root="true" title="" />
+  <component class="javax.swing.JLayeredPane" id="JLayeredPane Instance" index="1" parent="JRootPane Instance" window="JFrame Instance" />
+  <component class="javax.swing.JMenuBar" id="JMenuBar Instance" index="3" parent="JLayeredPane Instance" window="JFrame Instance" />
+  <component class="javax.swing.JPanel" hOrder="1" id="JPanel Instance" index="0" parent="JLayeredPane Instance" window="JFrame Instance" />
+  <component class="javax.swing.JPopupMenu" id="JPopupMenu Instance" index="0" invoker="New Game" />
+  <component class="javax.swing.JPopupMenu" id="JPopupMenu Instance 2" index="0" invoker="File" />
+  <component class="javax.swing.JRootPane" id="JRootPane Instance" index="0" parent="JFrame Instance" />
+  <component class="javax.swing.JMenu" id="New Game" index="0" parent="JPopupMenu Instance 2" text="New Game" window="JFrame Instance" />
+  <component class="javax.swing.JMenu" id="Options" index="1" parent="JMenuBar Instance" text="Options" window="JFrame Instance" />
+  <component class="javax.swing.JMenuItem" id="Solitaire" index="0" parent="JPopupMenu Instance" text="Solitaire" window="JFrame Instance" />
+  <launch args="[-t]" class="com.immortallabs.cardboard.CardBoardApp" classpath="./cardboard.jar" method="main" />
+  <sequence>
+    <action args="GameWindow Instance,(362%2c341)" class="com.immortallabs.cardboard.ui.GameWindow" method="actionClick" />
+    <action args="GameWindow Instance,(90%2c400)" class="com.immortallabs.cardboard.ui.GameWindow" method="actionClick" />
+    <action args="GameWindow Instance,(141%2c402)" class="com.immortallabs.cardboard.ui.GameWindow" method="actionClick" />
+    <action args="GameWindow Instance,(171%2c391)" class="com.immortallabs.cardboard.ui.GameWindow" method="actionClick" />
+    <event component="JFrame Instance" keyCode="VK_SHIFT" kind="KEY_PRESSED" modifiers="SHIFT_MASK" type="KeyEvent" />
+    <event component="JFrame Instance" keyCode="VK_F1" kind="KEY_RELEASED" modifiers="SHIFT_MASK" type="KeyEvent" />
+    <event component="JFrame Instance" keyCode="VK_SHIFT" kind="KEY_RELEASED" type="KeyEvent" />
+  </sequence>
+  <assert component="GameWindow Instance" method="isBackgroundSet" />
+  <terminate />
+</AWTTestScript>
+

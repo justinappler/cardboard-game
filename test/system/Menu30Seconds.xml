@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AWTTestScript>
+  <component class="javax.swing.JRadioButtonMenuItem" id="30 Seconds" index="1" parent="JPopupMenu Instance" text="30 Seconds" window="JFrame Instance" />
+  <component class="com.immortallabs.cardboard.ui.GameWindow" id="GameWindow Instance" index="0" name="" parent="JPanel Instance" window="JFrame Instance" />
+  <component class="javax.swing.JFrame" id="JFrame Instance" root="true" title="" />
+  <component class="javax.swing.JLayeredPane" id="JLayeredPane Instance" index="1" parent="JRootPane Instance" window="JFrame Instance" />
+  <component class="javax.swing.JMenuBar" id="JMenuBar Instance" index="4" parent="JLayeredPane Instance" window="JFrame Instance" />
+  <component class="javax.swing.JPanel" hOrder="1" id="JPanel Instance" index="0" parent="JLayeredPane Instance" window="JFrame Instance" />
+  <component class="javax.swing.JPopupMenu" id="JPopupMenu Instance" index="0" invoker="Time Limit" />
+  <component class="javax.swing.JPopupMenu" id="JPopupMenu Instance 2" index="0" invoker="Preferences" />
+  <component class="javax.swing.JPopupMenu" id="JPopupMenu Instance 3" index="0" invoker="Options" />
+  <component class="javax.swing.JRootPane" id="JRootPane Instance" index="0" parent="JFrame Instance" />
+  <component class="javax.swing.JMenu" id="Options" index="1" parent="JMenuBar Instance" text="Options" window="JFrame Instance" />
+  <component class="javax.swing.JMenu" id="Preferences" index="0" parent="JPopupMenu Instance 3" text="Preferences" window="JFrame Instance" />
+  <component class="javax.swing.JMenu" id="Time Limit" index="0" parent="JPopupMenu Instance 2" text="Time Limit" window="JFrame Instance" />
+  <launch args="[-t]" class="com.immortallabs.cardboard.CardBoardApp" classpath="./cardboard.jar" method="main" />
+  <sequence>
+    <action args="GameWindow Instance,(374%2c323)" class="com.immortallabs.cardboard.ui.GameWindow" method="actionClick" />
+    <action args="30 Seconds" method="actionSelectMenuItem" />
+  </sequence>
+  <assert component="30 Seconds" method="isSelected" />
+  <terminate />
+</AWTTestScript>
+

@@ -1,0 +1,65 @@
+<project default="all">
+
+  <property name="gs-dir" location="../../src/com/immortallabs/cardboard/game/" />
+  <property name="natlib-dir" location="../../src/edu/profdalbey/" />
+  <property name="tst-dir" location="SetsBoard" />
+  <property name="bin-dir" location="SetsBoard/bin" />
+  <property name="fake-dir" location="SetsBoard/fake" />
+  <property name="TALK" value="false" />
+	
+    <taskdef name="junit"
+
+        classname="org.apache.tools.ant.taskdefs.optional.junit.JUnitTask">
+        <classpath>
+              <pathelement location="../../lib/ant-junit.jar"/>
+        </classpath>
+      </taskdef>
+  
+  <path id="classpath.test">
+    <pathelement location="C:\Program Files (x86)\Eclipse\plugins\org.junit4_4.3.1\junit.jar" />
+    <pathelement location="C:\Program Files\Eclipse\plugins\org.junit4_4.3.1\junit.jar" />
+    <pathelement location="/usr/share/eclipse/plugins/org.junit4_4.3.1/junit.jar" />
+    <pathelement location="../../lib/junit4.jar" />
+    <pathelement path="${classpath}" />
+  </path>
+
+  <path id="classpath.bin">
+    <pathelement location="${bin-dir}" />
+  </path>
+
+  <target name="compile-test" depends="clean-compile-test">
+    <copy todir="${bin-dir}">
+		<fileset dir="${gs-dir}">
+			<include name="SetsBoard.java"/>
+		</fileset>
+		<fileset dir="${natlib-dir}">
+		  <include name="*.java"/>
+		</fileset>
+    </copy>
+    
+    <javac verbose="${TALK}" destdir="${bin-dir}">
+      <classpath refid="classpath.test"/>
+      <src path="${fake-dir}"/>
+      <src path="${bin-dir}"/>
+      <src path="${tst-dir}"/>
+    </javac>
+  </target>
+  
+  <target name="clean-compile-test">
+    <delete verbose="${TALK}">
+      <fileset dir="${bin-dir}" includes="**/*" />
+    </delete>
+  </target>
+
+  <target name="test"  depends="compile-test">
+    <junit printsummary="no">
+      <classpath refid="classpath.test" />
+      <classpath refid="classpath.bin" />
+      <formatter type="brief" usefile="false" />
+      <test name="unit.SetsBoard.SetsBoardTest" />
+    </junit>
+  </target>
+
+  <target name="all" depends="test" />
+  <target name="clean" depends="clean-compile-test" />
+</project>

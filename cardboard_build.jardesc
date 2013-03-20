@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="ImmortalLabs Trunk/cardboard.jar"/>
+    <options buildIfNeeded="true" compress="false" descriptionLocation="/ImmortalLabs Trunk/cardboard_build.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="false" mainClassHandleIdentifier="=ImmortalLabs Trunk/src&lt;com.immortallabs.cardboard{CardBoardApp.java[CardBoardApp" manifestLocation="/ImmortalLabs Trunk/manifest.mf" manifestVersion="1.0" reuseManifest="true" saveManifest="true" usesManifest="true">
+        <sealing sealJar="true">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="true" exportOutputFolder="false">
+        <file path="/ImmortalLabs Trunk/images/2021.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0220.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/2201.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/1001.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/background.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/2211.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0020.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/1102.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/1201.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/1111.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/2010.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/2022.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/explain.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0212.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/2122.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/1012.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/threeMore.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/2012.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0112.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/2100.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0222.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/1211.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/invalidSetMessage.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/1010.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/1000.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0010.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/1200.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/explainMessage.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0122.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/2011.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/hint.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0123.jpg"/>
+        <file path="/ImmortalLabs Trunk/preferences.txt"/>
+        <file path="/ImmortalLabs Trunk/images/validSetMessage.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0011.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/1221.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/1110.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/1212.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0201.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0200.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/2112.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/2002.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/2121.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/2222.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0210.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/1020.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0102.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0000.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/2202.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/1002.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0202.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0012.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0121.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0022.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/messageBox.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0211.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0111.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/2110.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/1021.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/2000.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/pause.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/1222.jpg"/>
+        <folder path="/ImmortalLabs Trunk/sounds"/>
+        <file path="/ImmortalLabs Trunk/images/1011.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/2210.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/2221.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/1112.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/2101.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/resume.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0103.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/1122.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/ok.jpg"/>
+        <javaElement handleIdentifier="=ImmortalLabs Trunk/src"/>
+        <file path="/ImmortalLabs Trunk/images/0001.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/1101.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/2220.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/2020.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0021.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/1100.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/explanationBox.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/2120.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/1210.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/1022.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0221.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0002.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/1120.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/1202.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/2111.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/start.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/2200.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/2102.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/1121.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/2212.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0100.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/1220.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/2001.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0120.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0101.jpg"/>
+        <file path="/ImmortalLabs Trunk/images/0110.jpg"/>
+    </selectedElements>
+</jardesc>

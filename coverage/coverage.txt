@@ -1,0 +1,25 @@
+[EMMA v2.0.5312 report, generated Fri Feb 06 13:03:46 PST 2009]
+-------------------------------------------------------------------------------
+OVERALL COVERAGE SUMMARY:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+34%  (29/86)!	33%  (142/431)!	31%  (3517/11397)!	35%  (711.4/2043)!	all classes
+
+OVERALL STATS SUMMARY:
+
+total packages:	6
+total classes:	86
+total methods:	431
+total executable files:	28
+total executable lines:	2043
+
+COVERAGE BREAKDOWN BY PACKAGE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+0%   (0/1)!	0%   (0/25)!	0%   (0/1857)!	0%   (0/288)!	integration.SetsBoard
+100% (1/1)	12%  (3/25)!	2%   (18/781)!	5%   (7/140)!	edu.profdalbey
+2%   (1/53)!	5%   (9/178)!	11%  (470/4298)!	14%  (105/744)!	com.immortallabs.cardboard.ui
+50%  (2/4)!	9%   (2/22)!	25%  (43/170)!	31%  (11/35)!	com.immortallabs.cardboard
+92%  (24/26)!	69%  (116/169)!	68%  (2756/4058)!	68%  (515.4/761)!	com.immortallabs.cardboard.game
+100% (1/1)	100% (12/12)	99%  (230/233)	97%  (73/75)	integration.Timer
+-------------------------------------------------------------------------------

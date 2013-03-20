@@ -1,0 +1,223 @@
+<!-- =================================================================== -->
+<!--     Daily Build script                                              -->
+<!-- =================================================================== -->
+<project name="cardboard" default="publish" basedir=".">
+   <target name="init">
+      <!-- Define properties for maintainability -->
+      <property name="app" value="CardBoardApp" />
+      <property name="pkg" value="com/immortallabs/cardboard" />
+      <property name="natlib" value="edu/profdalbey" />
+      <property name="sourceDir" value="src" />
+      <property name="buildDir" value="bin" />
+      <property name="distDir"  location="dist"/>
+      <property name="testDir"  location="test"/>
+      <property name="jdDir" location="Javadoc"/>
+      <property name="webDir" value="${user.home}/www" />
+      <property name="classpath" value="." />
+      <!-- Create the time stamp -->
+      <tstamp>
+        <format property="timestamp" pattern="MM/dd/yyyy hh:mm aa" />
+      </tstamp>
+      <!-- Create the build output log file -->
+      <property name="build.log.dir" location="${webDir}/Daily"/>
+      <mkdir dir="${build.log.dir}"/>
+      <property name="build.log.filename" value="build_${DSTAMP}_${TSTAMP}.log"/>
+      <property name="build.compiled" value="false" />
+      <record name="${build.log.dir}/${build.log.filename}"
+              loglevel="verbose" append="false"/>
+      <echo message="Build logged to ${build.log.filename}"/>
+      <!-- Declare the checkstyle task -->
+      <taskdef resource="checkstyletask.properties">
+       <classpath>
+               <pathelement location="lib/checkstyle-all-4.4.jar"/>
+               <pathelement location="lib/308checks.jar"/>
+       </classpath>
+       </taskdef>
+   </target>
+
+   <!-- =================================================================== -->
+   <!-- Remove old build directories                                        -->
+   <!-- =================================================================== -->
+   <target name="clean" depends="init">
+     <echo>Removing build and dist directories</echo>
+        <delete dir="${buildDir}"  failonerror="false"/>
+        <delete dir="${distDir}"  failonerror="false"/>
+        <delete dir="${jdDir}" failonerror="false"/>
+   </target>
+
+   <!-- =================================================================== -->
+   <!-- Obtain current sources from svn repository                          -->
+   <!-- =================================================================== -->
+   <target name="update" depends="clean">
+       <echo>Updating source files from repository</echo>
+        <exec executable="svn">
+          <arg value="update"/>
+          <!--arg value="trunk"/-->
+        </exec>
+   </target>
+
+   <!-- =================================================================== -->
+   <!-- Create a property for the current svn revision                      -->
+   <!-- =================================================================== -->
+   <target name="revision" depends="update">
+    <exec outputproperty="build.current.revision" executable="svnversion">
+        <!--arg line="-n trunk" /-->
+        <arg line="-n" />
+    </exec>
+   </target>
+
+   <!-- =================================================================== -->
+   <!-- Create a LOC Report                                                 -->
+   <!-- =================================================================== -->
+   <target name="locreport" depends="revision">
+    <exec outputproperty="build.loc.result" executable="perl">
+        <arg line="lib/cloc-1.07.pl --by-file --match-f=\.java$ --report-file=${webDir}/Daily/${build.current.revision}_${DSTAMP}_${TSTAMP}_loc.txt --no3 --force-lang=java src/com/immortallabs/cardboard/" />
+    </exec>
+   </target>
+    
+   <!-- =================================================================== -->
+   <!-- Create the failed publish                                           -->
+   <!-- =================================================================== --> 
+   <target name="publish.1" depends="locreport">
+    <replace file="${webDir}/Daily/index.html" token="&lt;!--NEXT--&gt;">
+          <replacevalue><![CDATA[<!--NEXT-->
+                <TR>
+                <TD>TIMESTAMP</TD>
+                <TD>REVISION</TD>
+                <TD>COMPILERESULT</TD>
+                <TD><A HREF="LOCFILE">LOC Report</A></TD>
+                <TD><A HREF="CSFILE">CheckStyle Report </a></TD>
+                <TD><A HREF="LOGFILENAME"> Build Output</A></TD>
+                <TD><A href="JARLOC">No_Jar_Produced</a></TD>
+                </TR>]]>
+          </replacevalue>
+    </replace>
+    <replace file="${webDir}/Daily/index.html" token="TIMESTAMP" value="${timestamp}"/>
+    <replace file="${webDir}/Daily/index.html" token="REVISION" value="${build.current.revision}"/>
+    <replace file="${webDir}/Daily/index.html" token="LOGFILENAME" value="${build.log.filename}"/>
+    <replace file="${webDir}/Daily/index.html" token="COMPILERESULT" value="Compile Failed at ${timestamp}"/>
+    <replace file="${webDir}/Daily/index.html" token="LOCFILE" value="${build.current.revision}_${DSTAMP}_${TSTAMP}_loc.txt" />
+    <replace file="${webDir}/Daily/index.html" token="CSFILE" value="${build.current.revision}_${DSTAMP}_${TSTAMP}_check.txt" />
+    <replace file="${webDir}/Daily/index.html" token="No_Jar_Produced" value="Jar Production Failed at ${timestamp}"/>
+   </target>
+    
+   <!-- =================================================================== -->
+   <!-- Compile the source code                                             -->
+   <!-- =================================================================== -->
+   <target name="compile" depends="publish.1">
+    <echo>Compiling all application source and junit test files</echo>
+    <!-- Put the revision number into the source code -->
+    <!--
+    <replace file="${sourceDir}/${pkg}/${app}.java"
+             value="${build.current.revision}">
+        <replacetoken>RevisionNumber</replacetoken>
+    </replace>
+    -->
+    <!-- Create the needed build directories -->
+    <mkdir dir="${buildDir}"/>
+    <mkdir dir="${buildDir}/classes"/>
+    <mkdir dir="${distDir}"/>
+
+    <!-- Compile sources  -->
+    <javac srcdir="${sourceDir}" destdir="${buildDir}/classes"
+           includes="${pkg}/**,${natlib}/**"
+           fork="true"
+           target="1.5"
+           listfiles="yes"
+           deprecation="yes"
+           failonerror="true" 
+    />
+
+   </target>
+
+   <!-- =================================================================== -->
+   <!-- Check for coding style conformance.                                 -->
+   <!-- =================================================================== -->
+   <target name="style" depends="compile">
+   <record name="${webDir}/Daily/${build.current.revision}_${DSTAMP}_${TSTAMP}_check.txt" action="start"/>
+        <checkstyle config="lib/308style.xml" 
+                   failOnViolation="false">
+          <fileset dir="${sourceDir}/${pkg}" includes="**/*.java"/>
+        </checkstyle>
+   <record name="${webDir}/Daily/${build.current.revision}_${DSTAMP}_${TSTAMP}_check.txt" action="stop"/>
+   </target>
+
+   <!-- =================================================================== -->
+   <!-- Copy media files needed for the JAR                                 -->
+   <!-- =================================================================== -->
+   
+   <target name="copyresources" depends="style">
+    <copy todir="${buildDir}/classes/${pkg}/resources">
+        <fileset dir="images/">
+          <include name="*"/>
+        </fileset>
+      </copy>
+   </target>
+
+   <!-- =================================================================== -->
+   <!-- Make the JAR file                                                   -->
+   <!-- =================================================================== -->
+   <target name="jar" depends="copyresources"
+          >
+    <jar destfile="${distDir}/${app}_r${build.current.revision}.jar" 
+         basedir="${buildDir}/classes"
+         manifest="manifest.mf" 
+         includes="${pkg}/, ${natlib}/"/>
+    <!-- Copy the jar to the public web folder -->
+    <copy file="${distDir}/${app}_r${build.current.revision}.jar"
+          todir="${webDir}/Daily" />
+    <!-- make jar public read -->
+    <chmod file="${webDir}/" perm="a+rx"  type="dir"/>
+    <chmod file="${webDir}/Daily/" perm="a+rx"  type="dir"/>
+<!--     <chmod dir="${webDir}/Daily/" perm="a+r" includes="**/*"/> -->
+    <chmod file="${webDir}/Daily/${app}_r${build.current.revision}.jar"
+           perm="a+r" type="file"/>
+   </target>
+    
+   <!-- =================================================================== -->
+   <!-- Make the javadocs                                                   -->
+   <!-- =================================================================== -->
+   <target name="docs" depends="jar">
+    <javadoc destdir="${distDir}/javadoc"
+             sourcepath="${sourceDir}" 
+             windowtitle="CardBoard r${build.current.revision}" 
+             private="true" nohelp="true"
+             nodeprecated="true" nodeprecatedlist="true"
+             version="true" author="true" 
+             additionalparam="-linksource" classpath="lib/naturalLib.jar" 
+             overview="doc/overview.html" >
+                  <tag name="history" description="Version History:" />
+                  <tag name="pre" description="Pre-conditions:" />
+                  <tag name="post" description="Post-conditions:" />
+    </javadoc>
+   <!-- Copy the docs to the public web folder -->
+    <copy todir="${webDir}/Javadoc">
+        <fileset dir="${distDir}/javadoc"/>
+    </copy>
+    <!-- make javadocs public read -->
+    <chmod file="${webDir}/Javadoc/" perm="a+rx" type="dir"/>
+    <chmod dir="${webDir}/Javadoc/" perm="a+rx" type="both"
+           includes="**/*"/>
+   </target>
+
+   <!-- =================================================================== -->
+   <!-- Publish the build report by appending HTML to the existing page.    -->
+   <!-- =================================================================== -->
+
+   <!-- Only include a link to the JAR if the compile succeeded -->
+   <target name="publish.2" depends="jar">
+    <replace file="${webDir}/Daily/index.html" token="JARLOC" value="${app}_r${build.current.revision}.jar"/>
+    <replace file="${webDir}/Daily/index.html" token="Jar Production Failed at ${timestamp}" value="${app}_r${build.current.revision}.jar"/>
+    <replace file="${webDir}/Daily/index.html" token="Compile Failed at ${timestamp}" value="Compile OK"/>
+   </target>
+   <target name="publish" depends="publish.2">
+    <!-- make report page and build log public read -->
+    <chmod file="${webDir}/Daily/index.html" perm="a+r"/>
+    <chmod file="${webDir}/Daily/*.loc" perm="a+r"/>
+    <chmod file="${webDir}/Daily/*.txt" perm="a+r"/>
+    <chmod file="${build.log.dir}/${build.log.filename}"
+           perm="a+r" type="file"/>
+   </target>
+
+   
+</project>

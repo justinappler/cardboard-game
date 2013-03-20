@@ -1,0 +1,1400 @@
+Card Board
+board won't display new time and scores until user selects a card, refreshes, or time runs out
+starting a new game
+enter q to exit, s for solitaire mode, b for beginner mode, c for competitive mode, m for multiplayer mode
+: new solitaire game
+Options:
+# of card to select
+r to refresh screen
+t for three more
+n to play a new game (Select this option to change difficulty or game type)
+p to pause
+u to unpause game
+h to recieve a hint
+o to redisplay options
+q to quit
+These options only work for multiplayer mode
+! for player 1 to buzz in
+@ for player 2 to buzz in
+# for player 3 to buzz in
+$ for player 4 to buzz in
+Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: invalid card selected
+: Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: invalid card selected
+: invalid card selected
+: Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: invalid card selected
+: invalid card selected
+: three more
+Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: game paused
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+: game unpaused
+Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: Options:
+# of card to select
+r to refresh screen
+t for three more
+n to play a new game (Select this option to change difficulty or game type)
+p to pause
+u to unpause game
+h to recieve a hint
+o to redisplay options
+q to quit
+These options only work for multiplayer mode
+! for player 1 to buzz in
+@ for player 2 to buzz in
+# for player 3 to buzz in
+$ for player 4 to buzz in
+: starting a new game
+enter q to exit, s for solitaire mode, b for beginner mode, c for competitive mode, m for multiplayer mode
+: : : : : : : : : new beginner game
+Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: invalid card selected
+: invalid card selected
+: Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: invalid card selected
+: Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: starting a new game
+enter q to exit, s for solitaire mode, b for beginner mode, c for competitive mode, m for multiplayer mode
+: new beginner game
+Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: hint
+Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: starting a new game
+enter q to exit, s for solitaire mode, b for beginner mode, c for competitive mode, m for multiplayer mode
+: Enter the time limit you desire [15 seconds(f), 30 seconds(t), 45 second(o), or unlimited(u)]::new competitive game
+Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: invalid card selected
+: invalid card selected
+: invalid card selected
+: starting a new game
+enter q to exit, s for solitaire mode, b for beginner mode, c for competitive mode, m for multiplayer mode
+: Enter the time limit you desire [15 seconds(f), 30 seconds(t), 45 second(o), or unlimited(u)]:new competitive game
+Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: starting a new game
+enter q to exit, s for solitaire mode, b for beginner mode, c for competitive mode, m for multiplayer mode
+: Enter the time limit you desire [15 seconds(f), 30 seconds(t), 45 second(o), or unlimited(u)]:new competitive game
+Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: starting a new game
+enter q to exit, s for solitaire mode, b for beginner mode, c for competitive mode, m for multiplayer mode
+: Enter the time limit you desire [15 seconds(f), 30 seconds(t), 45 second(o), or unlimited(u)]:new competitive game
+Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: starting a new game
+enter q to exit, s for solitaire mode, b for beginner mode, c for competitive mode, m for multiplayer mode
+: Enter the number of players you desire (min 2, max 4):new multiplayer game
+Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: Player2 buzzed
+: invalid card selected
+: invalid card selected
+: invalid card selected
+: Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: starting a new game
+enter q to exit, s for solitaire mode, b for beginner mode, c for competitive mode, m for multiplayer mode
+: Enter the number of players you desire (min 2, max 4):new multiplayer game
+Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: starting a new game
+enter q to exit, s for solitaire mode, b for beginner mode, c for competitive mode, m for multiplayer mode
+: Enter the number of players you desire (min 2, max 4):new multiplayer game
+Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: hint
+Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: starting a new game
+enter q to exit, s for solitaire mode, b for beginner mode, c for competitive mode, m for multiplayer mode
+: Enter the time limit you desire [15 seconds(f), 30 seconds(t), 45 second(o), or unlimited(u)]::new competitive game
+Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: invalid card selected
+: invalid card selected
+: invalid card selected
+: starting a new game
+enter q to exit, s for solitaire mode, b for beginner mode, c for competitive mode, m for multiplayer mode
+: Enter the time limit you desire [15 seconds(f), 30 seconds(t), 45 second(o), or unlimited(u)]:new competitive game
+Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: starting a new game
+enter q to exit, s for solitaire mode, b for beginner mode, c for competitive mode, m for multiplayer mode
+: Enter the time limit you desire [15 seconds(f), 30 seconds(t), 45 second(o), or unlimited(u)]:new competitive game
+Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: starting a new game
+enter q to exit, s for solitaire mode, b for beginner mode, c for competitive mode, m for multiplayer mode
+: Enter the time limit you desire [15 seconds(f), 30 seconds(t), 45 second(o), or unlimited(u)]:new competitive game
+Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: starting a new game
+enter q to exit, s for solitaire mode, b for beginner mode, c for competitive mode, m for multiplayer mode
+: Enter the number of players you desire (min 2, max 4):new multiplayer game
+Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: Player3 buzzed
+: invalid card selected
+: invalid card selected
+: Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: starting a new game
+enter q to exit, s for solitaire mode, b for beginner mode, c for competitive mode, m for multiplayer mode
+: Enter the number of players you desire (min 2, max 4):new multiplayer game
+Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: starting a new game
+enter q to exit, s for solitaire mode, b for beginner mode, c for competitive mode, m for multiplayer mode
+: Enter the number of players you desire (min 2, max 4):new multiplayer game
+Timer: 0 seconds
+    Player 1: 0
+    Player 2: 0
+Cards left: 0
+00	Card has been selected
+01	Card has been selected
+02	Card has been selected
+10	Card has been selected
+11	Card has been selected
+12	Card has been selected
+20	Card has been selected
+21	Card has been selected
+22	Card has been selected
+30	Card has been selected
+31	Card has been selected
+32	Card has been selected
+40	Card has been selected
+41	Card has been selected
+42	Card has been selected
+50	Card has been selected
+51	Card has been selected
+52	Card has been selected
+60	Card has been selected
+61	Card has been selected
+62	Card has been selected
+
+
+Inlay:
+70	null	null	null	null
+71	null	null	null	null
+72	null	null	null	null
+: End of game

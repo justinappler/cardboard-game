@@ -1,0 +1,19 @@
+
+505
+Last Changed Date: 2009-03-04 23:50:42 -0800 (Wed, 04 Mar 2009)
+SUM:                                                                         1089           3690           3881
+526
+Last Changed Date: 2009-03-05 21:29:55 -0800 (Thu, 05 Mar 2009)
+SUM:                                                                         1151           3868           4216
+541
+Last Changed Date: 2009-03-06 22:32:15 -0800 (Fri, 06 Mar 2009)
+SUM:                                                                         1159           3876           4213
+551
+Last Changed Date: 2009-03-07 21:30:04 -0800 (Sat, 07 Mar 2009)
+SUM:                                                                         1179           3936           4265
+683
+Last Changed Date: 2009-03-08 23:49:53 -0700 (Sun, 08 Mar 2009)
+SUM:                                                                          1170           3711           4272
+738
+Last Changed Date: 2009-03-09 18:24:12 -0700 (Mon, 09 Mar 2009)
+SUM:                                                                          1159           3662           4211
